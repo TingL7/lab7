@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 	Mino * mino_ptr;
-	//srandom(time(NULL));
+	srandom(time(NULL));
 	for(int i=0;i<5;++i){
 		mino_ptr = genMino();
 		mino_ptr->paint();
